@@ -2,7 +2,7 @@ class Restaurant < ApplicationRecord
   # relationship to reviews:
   has_many :reviews
 
-  # validation of attributes
+  # validation of attributes (each attribute its own line!)
   validates :name, presence: true
   validates :address, presence: true
   validates :category, presence: true
