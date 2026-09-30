@@ -8,11 +8,12 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-# created_count = 0
-# max_entries = 5
+# limit to max 5 records to be populated in the db
+# # created_count = 0
+# # max_entries = 5
 
-# your_data.each do |data|
-#   break if created_count >= max_entries
-#   # Create record here
-#   created_count += 1
-# end
+# # your_data.each do |data|
+# #   break if created_count >= max_entries
+# #   # Create record here
+# #   created_count += 1
+# # end
